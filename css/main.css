@@ -94,7 +94,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 html {
   background-color: #fff;
   height: 100%;
@@ -114,23 +113,20 @@ footer {
   background-color: #222;
   height: 80px;
   width: 100%;
-  
 }
 
 main {
   background-color: #ccc;
   height: 250px;
   width: 100%;
-  
+}
 
 header,
 footer,
 main {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .flex-container {
@@ -138,7 +134,6 @@ main {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .flex-items {
@@ -233,17 +228,15 @@ main {
    Modify as content requires.
    ========================================================================== */
 
-/* If you'd like to try a different layout on Desktop and larger screens: */
 @media (min-width: 1200px) {
-  #div-1,
-  #div-2{
+    #div-1,
+    #div-2 {
       flex: 1 50%;
-  }
+    }
 
-  #div-3 { 
-    flex: 1 100%;
-    /* set your flex value to 1 100% */
-  }
+    #div-3 {
+      flex: 1 100%;
+    }
 }
 
 @media print,
